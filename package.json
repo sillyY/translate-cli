@@ -10,11 +10,13 @@
     "chalk": "^2.4.2",
     "commander": "^3.0.1",
     "inquirer": "^7.0.0",
-    "ora": "^3.4.0"
+    "is-chinese": "^1.2.9",
+    "ora": "^3.4.0",
+    "say": "^0.16.0"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/index.js"
   },
   "repository": {
     "type": "git",
