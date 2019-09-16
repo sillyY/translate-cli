@@ -52,12 +52,13 @@ function googleTL(word) {
               data: []
             }
             opt.name = synonyms[i][0]
-            synonyms[i][2].map((v, idx) => {
-              opt.data.push({
-                name: v[0],
-                meanings: v[1]
-              })
-            })
+            opt.meaning = synonyms[i][1].join(',')
+            // synonyms[i][2].map((v, idx) => {
+            //   opt.data.push({
+            //     name: v[0],
+            //     meanings: v[1]
+            //   })
+            // })
             obj.data.push(opt)
           }
         }
